@@ -1,0 +1,61 @@
+body {
+    background-color: grey;
+    /* Light grey background */
+    color: #000;
+    font-family: Arial, sans-serif;
+}
+
+.login-container {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.login-form {
+    background-color: lightgray;
+    padding: 40px;
+    /* Increase padding for the form */
+    border-radius: 10px;
+    width: 400px;
+    /* Increase width of the form */
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    /* Center align form contents */
+}
+
+h2 {
+    margin-bottom: 30px;
+    /* Add space below the heading */
+}
+
+.form-label {
+    font-weight: bold;
+}
+
+.btn-primary {
+    width: 100px;
+    /* Adjust button width as per your requirement */
+    background-color: navy;
+    /* Navy blue background color */
+    color: white;
+    /* Text color white */
+    font-size: 1rem;
+    /* Font size */
+    margin-top: 20px;
+    border-radius: 5px;
+    /* Add margin to top */
+}
+
+.form-control {
+    font-size: 1rem;
+    /* Font size */
+    padding: 10px;
+    /* Padding */
+    border-radius: 0.25rem;
+    /* Border radius */
+    width: calc(100% - 20px);
+    /* Field takes full width with 20px padding */
+    margin-bottom: 10px;
+    /* Add margin between fields */
+}
